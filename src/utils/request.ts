@@ -50,6 +50,8 @@ const errorHandler = (error: { response: Response }): Response => {
  */
 const request = extend({
   errorHandler, // 默认错误处理
+  timeout: 3000, // 超时时间
+  prefix: '/api', // 统一url前缀
   credentials: 'include', // 默认请求是否带上cookie
 });
 
