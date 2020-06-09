@@ -10,13 +10,13 @@ const proSettings: DefaultSettings = {
   primaryColor: '#1890ff',
   layout: 'sidemenu',
   contentWidth: 'Fluid',
-  fixedHeader: false,
-  fixSiderbar: false,
+  fixedHeader: true,
+  fixSiderbar: true,
   colorWeak: false,
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: 'react博客管理系统',
   pwa: false,
   iconfontUrl: '',
 };
