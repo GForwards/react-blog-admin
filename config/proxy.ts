@@ -8,9 +8,9 @@
 export default {
   dev: {
     '/api/': {
-      target: 'http://192.168.197.1:3000',
+      target: 'http://localhost:3000',
       changeOrigin: true,
-      pathRewrite: { '^api': '' },
+      pathRewrite: { '^/api/': '' },
     },
   },
   test: {
